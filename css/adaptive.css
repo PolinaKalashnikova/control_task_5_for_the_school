@@ -1,0 +1,601 @@
+@media screen and (max-width: 1215px) {
+
+    .macaroon-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 29px;
+        grid-row-gap: 136px;
+    }
+}
+
+
+@media screen and (max-width: 1229px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1163px) {
+
+    .main {
+        position: relative;
+        padding-bottom: 420px;
+    }
+
+    .main-image {
+        position: absolute;
+        right: 55px;
+        bottom: 62px;
+    }
+
+    .main-image img {
+        max-width: 100%;
+    }
+
+    .description-image img {
+        max-width: 100%;
+    }
+
+    .item {
+        position: relative;
+        z-index: 3;
+        display: grid;
+        align-items: center;
+    }
+
+    .border img {
+        max-width: 100%;
+    }
+
+    .form {
+        padding: 120px 0 120px 0;
+    }
+
+    .form .container {
+        display: grid;
+        grid-template-columns: 409px 1fr;
+        align-content: flex-end;
+        position: relative;
+    }
+
+    .form-image {
+        margin-left: 30px;
+        margin-right: 163px;
+        order: 2;
+        position: relative;
+        margin-bottom: -120px;
+        right: 18px;
+    }
+
+    .form-info {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: left;
+        order: 1;
+    }
+
+    .form-info h1 {
+        font-size: 45px;
+        font-family: Tavolga, sans-serif;
+        color: rgb(51, 25, 7);
+        margin-bottom: 41px;
+    }
+
+    .form-info-text {
+        font-size: 18px;
+        font-family: Gilroy-Regular, sans-serif;
+        color: rgb(51, 25, 7);
+        max-width: 406px;
+        margin-bottom: 48px;
+        line-height: 1.556;
+    }
+
+    .strawberry-big {
+        bottom: 389px;
+        right: 324px;
+    }
+
+    .strawberry-small {
+        bottom: 518px;
+        right: 108px;
+    }
+
+}
+
+
+@media screen and (max-width: 1047px) {
+    .form-image img {
+        /*max-width: 100%;*/
+        width: 352px;
+    }
+}
+
+
+@media screen and (max-width: 1041px) {
+
+    .header .container {
+        display: grid;
+        grid-template-columns: 116px 1fr;
+        gap: 103px;
+    }
+
+    .contacts {
+        display: none;
+    }
+
+    .reasons-description {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .description-info {
+        display: grid;
+        justify-items: center;
+    }
+
+    .description-info-title {
+        max-width: 475px;
+        margin-bottom: 60px;
+    }
+
+    .description-info-text {
+        max-width: 671px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .reasons-criterion {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        grid-row-gap: 80px;
+    }
+
+    .reason-criterion-item {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .reason-item {
+        display: grid;
+        justify-items: center;
+        align-content: flex-start;
+    }
+
+    .text {
+        text-align: center;
+        max-width: 221px;
+    }
+
+    .description-image {
+        width: 302px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .form-image img {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .form-image img {
+        width: 302px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header .logo {
+        margin-right: 103px;
+    }
+
+    .contacts {
+        display: none;
+    }
+
+    .main {
+        position: static;
+        padding-bottom: 420px;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.79);
+    }
+
+    .menu ul {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .menu ul li {
+        margin: 15px 0;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .burger svg {
+        display: block;
+        width: 36px;
+        height: 10px;
+        fill: #821328;
+        margin-bottom: 0;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .macaroon-close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: rgb(164, 107, 0);
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .main {
+        padding: 62px 0 43px 0;
+    }
+
+    .main .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-info {
+        text-align: center;
+        margin-bottom: 38px;
+        display: grid;
+        justify-items: center;
+    }
+
+    .main-info .main-title {
+        font-size: 55px;
+        line-height: 1.25;
+        margin-bottom: 74px;
+        /*max-width: 580px;*/
+    }
+
+    .main-info .main-text {
+        font-size: 18px;
+        line-height: 1.438;
+        /*max-width: 349px;*/
+        text-align: center;
+    }
+
+    .main-image {
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+
+    .main-image img {
+        max-width: 100%;
+    }
+
+    .form {
+        padding: 100px 0 77px 0;
+        background-color: #ffefef;
+        position: relative;
+    }
+
+    .form .container {
+        display: grid;
+        grid-template-columns: 375px;
+        justify-items: left;
+    }
+
+    .form-info h1 {
+        font-size: 30px;
+        width: 275px;
+        margin-bottom: 44px;
+    }
+
+    .form-info-text {
+        font-size: 16px;
+        width: 344px;
+        margin-bottom: 60px;
+    }
+
+    .input1, .input2, .input3 {
+        width: 345px;
+        height: 60px;
+    }
+
+    button.form-button {
+        width: 345px;
+    }
+
+    .form-image {
+        display: none;
+    }
+
+
+    .strawberry-big {
+        top: 130px;
+        right: 13px;
+    }
+
+    .strawberry-small {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 634px) {
+
+    .present {
+        display: none;
+    }
+
+    .main {
+        text-align: center;
+    }
+
+    .main-info .main-title {
+        font-size: 30px;
+        line-height: 1.25;
+        margin-bottom: 40px;
+        max-width: 340px;
+    }
+
+    .main-info .main-text {
+        font-size: 16px;
+        line-height: 1.438;
+        margin-bottom: 40px;
+        max-width: 348px;
+        text-align: center;
+        margin-right: 0;
+        right: 0;
+    }
+
+    .main-image {
+        width: 300px;
+    }
+
+    .main-image::before,
+    .main-image::after{
+        width: 150px;
+        height: 150px;
+        right: 80px;
+        bottom: 65px;
+    }
+
+    .reasons-description {
+        margin-bottom: 0;
+    }
+
+    .description-info-title {
+        max-width: 340px;
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    .description-info-text {
+        max-width: 346px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 16px;
+    }
+
+    .reasons-criterion {
+        grid-row-gap: 36px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .text {
+        text-align: center;
+        max-width: 165px;
+        font-size: 13px;
+    }
+
+    .description-image {
+        margin-bottom: 60px;
+    }
+
+    .macaroon .container h1 {
+        font-size: 30px;
+    }
+
+    .macaroon-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 142px;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer .container {
+        display: grid;
+        grid-template-columns: 170px;
+        justify-content: center;
+        grid-row-gap: 40px;
+    }
+
+    .footer .logo {
+        order: 1;
+    }
+
+    .block.bl1 {
+        align-items: center;
+        max-width: 167px;
+        text-align: center;
+    }
+
+    .block.bl2 {
+        align-items: center;
+        order: 3;
+    }
+
+    .block.bl3 {
+        order: 2;
+        text-align: center;
+    }
+
+    .rights {
+        margin-top: 19px;
+        font-size: 12px;
+        order: 4;
+        text-align: center;
+    }
+
+
+}
+
+
+@media screen and (max-width: 407px) {
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .header .container {
+        gap: 0;
+    }
+
+    .main {
+        padding: 62px 0 43px 0;
+        text-align: center;
+    }
+
+
+    .main-image {
+        margin-top: 38px;
+        width: 250px;
+    }
+
+    .main-image::before,
+    .main-image::after{
+        width: 120px;
+        height: 120px;
+        right: 65px;
+        bottom: 55px;
+    }
+
+    .reasons {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .main {
+        padding-top: 50px;
+    }
+
+    .main-info .main-title {
+        font-size: 23px;
+    }
+
+    .main-info {
+        margin-bottom: 25px;
+    }
+
+    .reasons {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .description-info-title {
+        font-size: 25px;
+    }
+
+    .description-info-text {
+        font-size: 13px;
+    }
+
+    .description-image img {
+        width: 240px;
+    }
+
+    .reasons-criterion {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+        grid-row-gap: 40px;
+    }
+
+    .macaroon {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .macaroon .container h1 {
+        margin-bottom: 90px;
+    }
+
+    .macaroon-items {
+        grid-row-gap: 100px;
+    }
+
+    .form {
+        padding-top: 60px;
+    }
+
+    .form-info h1 {
+        font-size: 27px;
+        width: 275px;
+        margin-bottom: 30px;
+    }
+
+    .form-info-text {
+        font-size: 13px;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+
+    .input1, .input2, .input3 {
+        width: 300px;
+        height: 60px;
+    }
+
+    button.form-button {
+        width: 100%;
+    }
+}
